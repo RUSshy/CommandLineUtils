@@ -260,7 +260,7 @@ namespace McMaster.Extensions.CommandLineUtils
             while (true);
         }
 
-        private static void Write(string value, ConsoleColor? foreground, ConsoleColor? background)
+        public static void Write(string value, ConsoleColor? foreground, ConsoleColor? background)
         {
             if (foreground.HasValue)
             {
